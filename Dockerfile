@@ -89,6 +89,6 @@ COPY . /app
 
 RUN composer install
 
-EXPOSE 8000
-
+EXPOSE 443
+CMD ["symfony", "server:ca:install"]
 CMD ["symfony", "server:start"]
