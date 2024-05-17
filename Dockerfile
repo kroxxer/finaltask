@@ -92,5 +92,4 @@ RUN composer install
 
 RUN ["./bin/console", "doctrine:schema:update", "--force"]
 
-RUN ["symfony", "server:ca:install"]
 CMD ["symfony", "server:start"]
