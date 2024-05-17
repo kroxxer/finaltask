@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e53837e6-eb4f-4c49-9c9a-20107657c2d0" name="Changes" comment="AAAA">
+      <change afterPath="$PROJECT_DIR$/.idea/codeception.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/phpunit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/symfony2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/@hotwired/stimulus/stimulus.index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/@hotwired/turbo/turbo.index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/@popperjs/core/core.index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/bootstrap.index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/bootstrap/dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.5a01f8c5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.5a01f8c5.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.c07843af.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.c07843af.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/entrypoints.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-boolean.38cf4737.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-code-editor.5893dd28.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-code-editor.78ccdb00.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-code-editor.78ccdb00.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-collection.32367ca8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-file-upload.a3a92842.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-image.19d51d41.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-slug.051e4dcd.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-text-editor.7f2b8426.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-text-editor.7f2b8426.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-text-editor.833157ee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-text-editor.833157ee.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-textarea.268f9a4d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-brands-400.6205fd00.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-brands-400.6205fd00fb1b573e9f0f0734a5817282.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-brands-400.8d3cabfc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-brands-400.8d3cabfc66809162fb4d7109aefa44dc.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-regular-400.adc51aab.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-regular-400.adc51aab4d771ab65f8162d68231b526.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-regular-400.e931bc0d.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-regular-400.e931bc0d14f5bbb1da223e8e9112ab9b.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-solid-900.45a265d0.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-solid-900.45a265d0f07b31cde85f8723d9c53efd.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-solid-900.fb8184ad.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-solid-900.fb8184add5a3101ad0a321db81c70285.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-v4compatibility.2eb7b3ef.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-v4compatibility.2eb7b3ef25042305f3ff19c10f1255af.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-v4compatibility.b3049b13.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/fonts/fa-v4compatibility.b3049b13a93f07e026fcbf2f36742d36.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/form.6e84c31d.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AQ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/AZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BJ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BQ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/BZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/CZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DJ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/DZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/EC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/EE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/EG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/EH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ER.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ES.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ET.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/EU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FJ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/FR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GE-AB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GE-OS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GQ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/GY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/HU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ID.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IQ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/IT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/JE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/JM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/JO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/JP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/KZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/LY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ME.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ML.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MQ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/MZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NP.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/NZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/OM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/PY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/QA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/RE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/RO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/RS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/RU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/RW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SJ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ST.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SX.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/SZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TH.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TJ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TL.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TO.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TR.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TV.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/TZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UNKNOWN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/US.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UY.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/UZ.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VG.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VI.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VN.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/VU.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/WF.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/WS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/XK.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/YE.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/YT.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ZA.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ZM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/images/flags/ZW.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/login.7259f5de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/page-color-scheme.4c28406c.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/page-layout.3347892e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/login/login.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+    </list>
+    <list id="502b1f4f-cdf1-4789-b714-9c4208035c5d" name="New changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dockerfile" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="/bin/php">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+      <path value="$PROJECT_DIR$/vendor/egulias/email-validator" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phpstan/phpdoc-parser" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-invoker" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/string" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/ux-turbo" />
+      <path value="$PROJECT_DIR$/vendor/symfony/console" />
+      <path value="$PROJECT_DIR$/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/runtime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/options-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-access" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/vendor/symfony/messenger" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-http" />
+      <path value="$PROJECT_DIR$/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dotenv" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
+      <path value="$PROJECT_DIR$/vendor/symfony/twig-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/intl" />
+      <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/vendor/symfony/form" />
+      <path value="$PROJECT_DIR$/vendor/symfony/notifier" />
+      <path value="$PROJECT_DIR$/vendor/symfony/stimulus-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mailer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/flex" />
+      <path value="$PROJECT_DIR$/vendor/symfony/error-handler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/routing" />
+      <path value="$PROJECT_DIR$/vendor/symfony/web-profiler-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/http-kernel" />
+      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/vendor/symfony/serializer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/password-hasher" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-core" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
+      <path value="$PROJECT_DIR$/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/vendor/symfony/asset-mapper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/var-dumper" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/deprecations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-migrations-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/persistence" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/migrations" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/type" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/complexity" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/lines-of-code" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/cli-parser" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/masterminds/html5" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/easycorp/easyadmin-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/uid" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-uuid" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-menu-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-paginator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2gBn7NowdTxhbqM1mXGSg2iWSJL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Docker.Dockerfile">
+    <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="docker-default">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
+      <deployment type="docker-compose.yml">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <configuration name="compose.yaml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="docker-default">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="sourceFilePath" value="compose.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.Dockerfile" />
+        <item itemvalue="Docker.compose.yaml: Compose Deployment" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
+        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e53837e6-eb4f-4c49-9c9a-20107657c2d0" name="Changes" comment="" />
+      <changelist id="502b1f4f-cdf1-4789-b714-9c4208035c5d" name="New changelist" comment="" />
+      <created>1715179670084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715179670084</updated>
+      <workItem from="1715179671382" duration="11377000" />
+      <workItem from="1715267518458" duration="5753000" />
+      <workItem from="1715851797992" duration="11607000" />
+    </task>
+    <task id="LOCAL-00001" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715267673296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715267673296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715267787295</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715267787295</updated>
+    </task>
+    <task id="LOCAL-00003" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715269655604</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715269655604</updated>
+    </task>
+    <task id="LOCAL-00004" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715269910716</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715269910716</updated>
+    </task>
+    <task id="LOCAL-00005" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715340185215</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715340185215</updated>
+    </task>
+    <task id="LOCAL-00006" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715340916193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715340916193</updated>
+    </task>
+    <task id="LOCAL-00007" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715852274528</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715852274528</updated>
+    </task>
+    <task id="LOCAL-00008" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715857798133</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715857798133</updated>
+    </task>
+    <task id="LOCAL-00009" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715859954101</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715859954101</updated>
+    </task>
+    <task id="LOCAL-00010" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715936610617</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715936610617</updated>
+    </task>
+    <task id="LOCAL-00011" summary="AAAA">
+      <option name="closed" value="true" />
+      <created>1715937348653</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1715937348653</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="AAAA" />
+    <option name="LAST_COMMIT_MESSAGE" value="AAAA" />
+  </component>
+</project>
