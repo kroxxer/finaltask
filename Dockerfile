@@ -79,6 +79,7 @@ RUN set -o errexit -o nounset -o pipefail -o xtrace; \
     \
     composer --global config repos.packagist composer 'https://mirrors.tencent.com/composer/'
 ENV COMPOSER_ALLOW_SUPERUSER=1
+ENV PGSSLCERT /tmp/postgresql.crt
 
 RUN apk add --no-cache bash &&\
 curl -sS 'https://dl.cloudsmith.io/public/symfony/stable/setup.alpine.sh' | bash &&\
