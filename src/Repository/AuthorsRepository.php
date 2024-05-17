@@ -2,22 +2,22 @@
 
 namespace App\Repository;
 
-use App\Entity\Author;
+use App\Entity\Authors;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
 
 /**
- * @extends ServiceEntityRepository<Author>
+ * @extends ServiceEntityRepository<Authors>
  */
-class AuthorRepository extends ServiceEntityRepository
+class AuthorsRepository extends ServiceEntityRepository
 {
     public function __construct(ManagerRegistry $registry)
     {
-        parent::__construct($registry, Author::class);
+        parent::__construct($registry, Authors::class);
     }
 
     //    /**
-    //     * @return Author[] Returns an array of Author objects
+    //     * @return Authors[] Returns an array of Authors objects
     //     */
     //    public function findByExampleField($value): array
     //    {
@@ -31,7 +31,7 @@ class AuthorRepository extends ServiceEntityRepository
     //        ;
     //    }
 
-    //    public function findOneBySomeField($value): ?Author
+    //    public function findOneBySomeField($value): ?Authors
     //    {
     //        return $this->createQueryBuilder('a')
     //            ->andWhere('a.exampleField = :val')

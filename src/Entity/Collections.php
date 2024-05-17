@@ -13,6 +13,8 @@ class Collections
     #[ORM\Column]
     private ?int $id = null;
 
+
+    private Items $item;
     public function getId(): ?int
     {
         return $this->id;

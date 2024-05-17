@@ -13,8 +13,13 @@ class Likes
     #[ORM\Column]
     private ?int $id = null;
 
+    private Comments $comment;
+
+    private User $user;
+
     public function getId(): ?int
     {
         return $this->id;
     }
+
 }
