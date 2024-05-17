@@ -15,6 +15,7 @@ security:
             security: false
         main:
             lazy: true
+            anonymous: ~
             provider: app_user_provider
             entry_point: form_login
             form_login:
