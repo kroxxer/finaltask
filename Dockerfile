@@ -92,4 +92,6 @@ RUN composer install
 
 RUN ["./bin/console", "doctrine:schema:update", "--force"]
 EXPOSE 443
+
+CMD ["symfony", "server:ca:install"]
 CMD ["symfony", "server:start"]
