@@ -92,6 +92,7 @@ RUN composer install
 
 EXPOSE 443
 
-RUN ["./bin/console", "doctrine:migrations:migrate"]
+RUN ["./bin/console", "doctrine:schema:update --force"]
+
 RUN ["symfony", "server:ca:install"]
 CMD ["symfony", "server:start"]
