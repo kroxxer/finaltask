@@ -90,5 +90,7 @@ COPY . /app
 RUN composer install
 
 EXPOSE 443
+
+CMD ["./bin/console", "doctrine:schema:update"]
 CMD ["symfony", "server:ca:install"]
 CMD ["symfony", "server:start"]
