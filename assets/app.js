@@ -8,4 +8,13 @@ import './bootstrap.js';
 import './styles/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+document.getElementById('btnSwitch').addEventListener('click',()=>{
+    if (document.documentElement.getAttribute('data-bs-theme') === 'dark') {
+        document.documentElement.setAttribute('data-bs-theme','light')
+    }
+    else {
+        document.documentElement.setAttribute('data-bs-theme','dark')
+    }
+})
+
 console.log('This log comes from assets/app.js - welcome to AssetMapper! 🎉');
