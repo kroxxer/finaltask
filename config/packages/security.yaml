@@ -38,6 +38,7 @@ security:
         ROLE_ADMIN: [ ROLE_USER, ROLE_ALLOWED_TO_SWITCH ]
     access_control:
         - { path: '^/secure', roles: ROLE_ADMIN }
+        - { path: '^/admin', roles: ROLE_ADMIN }
         - { path: '^/login', roles: PUBLIC_ACCESS }
         # catch all other URLs
         - { path: '^/', roles: PUBLIC_ACCESS }
