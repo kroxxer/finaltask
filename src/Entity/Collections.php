@@ -15,22 +15,14 @@ class Collections
     #[ORM\Column]
     private ?int $id = null;
 
+    #[ORM\ManyToMany(targetEntity: Items::class, mappedBy: 'collection', fetch: 'EAGER')]
+    #[ORM\JoinColumn(nullable: false)]
     private Items $item;
-
-    #[ORM\Column]
-    private bool $custom_string1_state;
-    #[ORM\Column]
-    private string $custom_string1_title;
-    #[ORM\Column]
-    private bool $custom_string2_name;
-
-    #[ORM\Column]
-    private bool $custom_string3_state;
 
     /**
      * @var Collection<int, CustomAtributes>
      */
-    #[ORM\ManyToMany(fetch: 'EAGER', targetEntity: CustomAtributes::class, mappedBy: 'collection')]
+    #[ORM\ManyToMany(targetEntity: CustomAtributes::class, mappedBy: 'collection', fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
     private Collection $customAtributes;
 

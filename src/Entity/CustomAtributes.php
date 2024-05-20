@@ -23,6 +23,9 @@ class CustomAtributes
     private ?bool $custom_string_state = null;
 
     #[ORM\Column]
+    private ?bool $custom_text_state = null;
+
+    #[ORM\Column]
     private ?bool $custom_int_state = null;
 
     #[ORM\Column]
@@ -40,13 +43,16 @@ class CustomAtributes
     #[ORM\Column(length: 255, nullable: true)]
     private ?string $custom_string_value = null;
 
+    #[ORM\Column(type: Types::TEXT, nullable: true)]
+    private ?string $custom_text_value = null;
+
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
     private ?\DateTimeInterface $custom_date_value = null;
 
     /**
      * @var Collection<int, Collections>
      */
-    #[ORM\ManyToMany(fetch: 'EAGER',targetEntity: Collections::class, inversedBy: 'customAtributes')]
+    #[ORM\ManyToMany(targetEntity: Collections::class, inversedBy: 'customAtributes', fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
     private Collection $collection;
 
@@ -154,6 +160,26 @@ class CustomAtributes
         $this->custom_string_value = $custom_string_value;
 
         return $this;
+    }
+
+    public function getCustomTextState(): ?bool
+    {
+        return $this->custom_text_state;
+    }
+
+    public function setCustomTextState(?bool $custom_text_state): void
+    {
+        $this->custom_text_state = $custom_text_state;
+    }
+
+    public function getCustomTextValue(): ?string
+    {
+        return $this->custom_text_value;
+    }
+
+    public function setCustomTextValue(?string $custom_text_value): void
+    {
+        $this->custom_text_value = $custom_text_value;
     }
 
     public function getCustomDateValue(): ?\DateTimeInterface
