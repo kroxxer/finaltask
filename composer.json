@@ -10,7 +10,7 @@
         "doctrine/dbal": "^3",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",
-        "doctrine/orm": "^3.1",
+        "doctrine/orm": "2.19.*",
         "easycorp/easyadmin-bundle": "^4.10",
         "knplabs/knp-menu-bundle": "^3.4",
         "knplabs/knp-paginator-bundle": "^6.3",
@@ -46,7 +46,8 @@
         "symfony/web-link": "7.0.*",
         "symfony/yaml": "7.0.*",
         "twig/extra-bundle": "^2.12|^3.0",
-        "twig/twig": "^2.12|^3.0"
+        "twig/twig": "^2.12|^3.0",
+        "vertigolabs/doctrine-full-text-postgres": "1.1.2"
     },
     "config": {
         "allow-plugins": {

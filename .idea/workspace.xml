@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53837e6-eb4f-4c49-9c9a-20107657c2d0" name="Changes" comment="doc">
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.dea15b53.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/app.dea15b53.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/bundles/easyadmin/field-slug.0dd3942b.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundles/easyadmin/app.c07843af.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundles/easyadmin/app.c07843af.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundles/easyadmin/entrypoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundles/easyadmin/entrypoints.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundles/easyadmin/field-slug.051e4dcd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/bundles/easyadmin/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/bundles/easyadmin/manifest.json" afterDir="false" />
     </list>
     <list id="502b1f4f-cdf1-4789-b714-9c4208035c5d" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,7 +25,9 @@
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
-    <execution />
+    <execution>
+      <executable path="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -178,26 +190,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
-    &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.Dockerfile.executor": "Run",
+    "Docker.compose.yaml: Compose Deployment.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/aboba/finaltask",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.webide.settings.project.settings.php.composer",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
@@ -241,8 +254,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-PS-241.15989.102" />
-        <option value="bundled-php-predefined-ba97393d7c68-c76157a7178b-com.jetbrains.php.sharedIndexes-PS-241.15989.102" />
+        <option value="bundled-js-predefined-1d06a55b98c1-cb551a44b0f8-JavaScript-PS-242.10180.24" />
+        <option value="bundled-php-predefined-ba97393d7c68-12a71d8b1e64-com.jetbrains.php.sharedIndexes-PS-242.10180.24" />
       </set>
     </attachedChunks>
   </component>
@@ -261,14 +274,8 @@
       <workItem from="1716132062713" duration="10465000" />
       <workItem from="1716400330068" duration="592000" />
       <workItem from="1716400933563" duration="113000" />
-    </task>
-    <task id="LOCAL-00004" summary="AAAA">
-      <option name="closed" value="true" />
-      <created>1715269910716</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1715269910716</updated>
+      <workItem from="1716401386025" duration="693000" />
+      <workItem from="1716402081736" duration="1915000" />
     </task>
     <task id="LOCAL-00005" summary="AAAA">
       <option name="closed" value="true" />
@@ -654,7 +661,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716297398264</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="doc">
+      <option name="closed" value="true" />
+      <created>1716401414494</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1716401414496</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
