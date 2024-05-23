@@ -1,8 +1,5 @@
 FROM webdevops/php-nginx:8.2-alpine
 
-WORKDIR /app
-COPY . /app
-
 RUN set -o errexit -o nounset -o pipefail -o xtrace; \
     \
     # Install system packages.
