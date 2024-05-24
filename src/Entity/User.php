@@ -22,6 +22,9 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(length: 180)]
     private ?string $email = null;
 
+    #[ORM\Column(length: 180, options:["default" => ""])]
+    private ?string $name = null;
+
     /**
      * @var list<string> The user roles
      */
@@ -125,6 +128,16 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     public function setUpdated(?\DateTime $updated): void
     {
         $this->updated = $updated;
+    }
+
+    public function getName(): ?string
+    {
+        return $this->name;
+    }
+
+    public function setName(?string $name): void
+    {
+        $this->name = $name;
     }
 
     /**
