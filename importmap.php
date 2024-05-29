@@ -35,4 +35,7 @@ return [
         'version' => '5.3.3',
         'type' => 'css',
     ],
+    'js-cookie' => [
+        'version' => '3.0.5',
+    ],
 ];

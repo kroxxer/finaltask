@@ -50,4 +50,14 @@
     array (
     ),
   ),
+  'js-cookie' => 
+  array (
+    'version' => '3.0.5',
+    'dependencies' => 
+    array (
+    ),
+    'extraFiles' => 
+    array (
+    ),
+  ),
 );
