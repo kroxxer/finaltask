@@ -13,8 +13,8 @@ class DefaultController extends AbstractController
     #[Route('/', name: 'app_index')]
     public function index(EntityManagerInterface $entityManager): Response
     {
-        dump($entityManager->createQuery("SELECT * FROM user WHERE TO_TSVECTOR(email) @@ TO_TSQUERY('a@a.a') LIMIT 10;")->getSQL());
-        $emails = $entityManager->createQuery("SELECT * FROM user WHERE TO_TSVECTOR(email) @@ TO_TSQUERY('a@a.a') LIMIT 10;")->getResult();
+    dump($entityManager->createQuery("SELECT u FROM App\Entity\User u WHERE TSMATCH(TO_TSVECTOR(u.email), TO_TSQUERY('a@a.a'))=TRUE")->getSQL());
+        $emails = $entityManager->createQuery("SELECT u FROM App\Entity\User u WHERE TSMATCH(TO_TSVECTOR(u.email), TO_TSQUERY('a@a.a'))=TRUE")->getResult();
         return $this->render("default/index.html.twig", [
             'emails' => $emails
             ]
