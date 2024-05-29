@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="" data-bs-theme="dark">
+<html lang="">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
@@ -15,7 +15,8 @@
         {% endblock %}
 
     </head>
-    <body class="d-flex align-items-center py-4 bg-body-tertiary" onload="checkTheme()">
+    <body class="d-flex align-items-center py-4 bg-body-tertiary" id="body">
+        <button id="btnSwitch">Change Theme</button>
         {% block body %}{% endblock %}
     </body>
 </html>

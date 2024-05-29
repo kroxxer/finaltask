@@ -13,14 +13,16 @@ Cookies.set("foo", "bar")
 function setTheme() {
     let date = new Date(Date.now() + 86400e3);
     Cookies.set('theme', 'dark', { expires : date});
+    document.documentElement.setAttribute('data-bs-theme','dark');
 }
 
+document.getElementById("body").addEventListener("load", checkTheme);
+
 document.getElementById('btnSwitch').addEventListener('click',()=>{
-    if (document.documentElement.getAttribute('data-bs-theme') === 'dark') {
+    if (Cookies.get('theme') === 'dark') {
         document.documentElement.setAttribute('data-bs-theme','light');
         Cookies.set('theme', 'light');
-    }
-    else {
+    } else {
         document.documentElement.setAttribute('data-bs-theme','dark');
         Cookies.set('theme', 'dark');
     }
