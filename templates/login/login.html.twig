@@ -2,13 +2,39 @@
 
 {% block title %}Log in!{% endblock %}
 
+{% block stylesheets %}
+    <style>
+        .form-signin {
+        max-width: 330px;
+        padding: 1rem;
+        }
+
+        .form-signin .form-floating:focus-within {
+        z-index: 2;
+        }
+
+        .form-signin input[type="email"] {
+        margin-bottom: -1px;
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0;
+        }
+
+        .form-signin input[type="password"] {
+        margin-bottom: 10px;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        }
+    </style>
+{% endblock %}
+
 {% block body %}
-    <main class="form-signin m-auto">
+    <main class="m-auto form-signin">
         <h1 class="text-center">Login</h1>
+        <br>
         {% if errorMessage %}
             <div class="text-center text-danger">{{ errorMessage }}</div>
         {% endif %}
-        <div class="container">
+        <div class="container form-signin">
             <form action="{{ path('app_login') }}" method="post">
                 <div class="form-floating mb-3">
                     <input class="form-control px-4" type="text" id="username" name="_username" value="{{ email }}">
@@ -24,5 +50,4 @@
             </form>
         </div>
     </main>
-
 {% endblock %}

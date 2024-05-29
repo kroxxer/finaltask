@@ -15,8 +15,12 @@
         {% endblock %}
 
     </head>
-    <body class="d-flex align-items-center py-4 bg-body-tertiary" id="body">
-        <button id="btnSwitch">Change Theme</button>
-        {% block body %}{% endblock %}
+    <body class="d-flex py-4 text-center bg-body-tertiary" id="body">
+        <main class="w-100 m-auto p-auto">
+            <div class="text-end">
+                <button id="btnSwitch" type="button" class="btn btn-primary">Change Theme</button>
+            </div>
+                {% block body %}{% endblock %}
+        </main>
     </body>
 </html>

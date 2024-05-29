@@ -4,20 +4,21 @@ import './styles/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function checkTheme() {
-    console.log(Cookies.get('theme'));
+    console.log(Cookies.get('theme') + " aaaa");
     if (Cookies.get('theme') === '') {
         setTheme();
+    } else {
+        document.documentElement.setAttribute('data-bs-theme', Cookies.get('theme'));
     }
 }
-Cookies.set("foo", "bar")
+
 function setTheme() {
     let date = new Date(Date.now() + 86400e3);
     Cookies.set('theme', 'dark', { expires : date});
     document.documentElement.setAttribute('data-bs-theme','dark');
 }
 
-document.getElementById("body").addEventListener("load", checkTheme);
-
+window.addEventListener("load", checkTheme);
 document.getElementById('btnSwitch').addEventListener('click',()=>{
     if (Cookies.get('theme') === 'dark') {
         document.documentElement.setAttribute('data-bs-theme','light');
