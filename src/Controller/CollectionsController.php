@@ -25,6 +25,7 @@ class CollectionsController extends AbstractController
     #[Route('/new', name: 'app_collections_new', methods: ['GET', 'POST'])]
     public function new(Request $request, EntityManagerInterface $entityManager): Response
     {
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
         $collection = new Collections();
         $form = $this->createForm(CollectionsType::class, $collection);
         $form->handleRequest($request);
@@ -53,6 +54,8 @@ class CollectionsController extends AbstractController
     #[Route('/{id}/edit', name: 'app_collections_edit', methods: ['GET', 'POST'])]
     public function edit(Request $request, Collections $collection, EntityManagerInterface $entityManager): Response
     {
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
+
         $form = $this->createForm(CollectionsType::class, $collection);
         $form->handleRequest($request);
 
@@ -71,6 +74,8 @@ class CollectionsController extends AbstractController
     #[Route('/{id}', name: 'app_collections_delete', methods: ['POST'])]
     public function delete(Request $request, Collections $collection, EntityManagerInterface $entityManager): Response
     {
+        $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
+
         if ($this->isCsrfTokenValid('delete'.$collection->getId(), $request->getPayload()->get('_token'))) {
             $entityManager->remove($collection);
             $entityManager->flush();

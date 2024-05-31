@@ -4,7 +4,6 @@ import './styles/app.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function checkTheme() {
-    console.log(Cookies.get('theme') + " aaaa");
     if (Cookies.get('theme') === '') {
         setTheme();
     } else {
@@ -14,7 +13,7 @@ function checkTheme() {
 
 function setTheme() {
     let date = new Date(Date.now() + 86400e3);
-    Cookies.set('theme', 'dark', { expires : date});
+    Cookies.set('theme', 'dark', { expires : date, samesite : 'none'});
     document.documentElement.setAttribute('data-bs-theme','dark');
 }
 

@@ -3,6 +3,10 @@
 {% block title %}Main Page{% endblock %}
 
 {% block body %}
+    <br>
+    <div class="text-end">
+        <a class="btn btn-primary" href="{{ path('app_login') }}">Login</a>
+    </div>
     {% for email in emails %}
         <div>Email : {{ email.email }}</div>
     {% endfor %}
