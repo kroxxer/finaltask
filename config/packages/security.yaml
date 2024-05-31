@@ -22,7 +22,7 @@ security:
                 login_path: app_login
                 check_path: app_login
                 enable_csrf: false
-                failure_handler:
+                failure_handler: App\Security\AuthenticationFailureHandler
             logout:
                 path: app_logout
                 # where to redirect after logout

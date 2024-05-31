@@ -25,6 +25,7 @@ class AuthenticationFailureHandler implements AuthenticationFailureHandlerInterf
     {
         if ($exception instanceof BadCredentialsException)
             $exception = new CustomUserMessageAuthenticationException('Don\'t have matched email');
+        dump('hehe');
         $request->getSession()->set(SecurityRequestAttributes::AUTHENTICATION_ERROR, $exception);
         return new RedirectResponse($this->urlGenerator->generate('app_login'));
     }
