@@ -53,6 +53,9 @@ final class UserFactory extends ModelFactory
             'email' =>  self::faker()->unique()->safeEmail(),
             'password' => self::faker()->password($this->passwordAmountMin, $this->passwordAmountMax),
             'roles' => ['ROLE_ADMIN'],
+            'name' => self::faker()->unique()->name(),
+            'blocked' => false,
+            'updated' => self::faker()->dateTime()
         ];
     }
 

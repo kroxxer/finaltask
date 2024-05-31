@@ -22,8 +22,8 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column(length: 180)]
     private ?string $email = null;
 
-    #[ORM\Column(length: 180, options:["default" => ""])]
-    private ?string $name = null;
+    #[ORM\Column(length: 180, options:["default" => " ", "nullable" => true])]
+    private string $name;
 
     /**
      * @var list<string> The user roles
@@ -40,8 +40,7 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column (options: ["default" => false, "nullable" => true])]
     private ?bool $blocked = null;
 
-
-    #[ORM\Column(type: 'datetime', options:["default" => "CURRENT_TIMESTAMP"])]
+    #[ORM\Column(type: 'datetime', options:["default" => "CURRENT_TIMESTAMP", "nullable" => true])]
     private ?\DateTime $updated = null;
 
     public function getId(): ?int

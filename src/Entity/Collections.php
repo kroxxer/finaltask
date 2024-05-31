@@ -27,10 +27,21 @@ class Collections
     #[ORM\JoinColumn(nullable: false)]
     private Collection $customAttributesLabel;
 
+    #[ORM\ManyToOne(fetch: 'EAGER', inversedBy: 'collection')]
+    #[ORM\JoinColumn(nullable: false)]
+    private Category $category;
+
+    /**
+     * @var Collection<int, Tag>
+     */
+    #[ORM\ManyToMany(targetEntity: Tag::class, mappedBy: 'collection')]
+    private Collection $tags;
+
     public function __construct()
     {
         $this->customAttributesLabel = new ArrayCollection();
         $this->items = new ArrayCollection();
+        $this->tags = new ArrayCollection();
     }
     public function getId(): ?int
     {
@@ -70,6 +81,45 @@ class Collections
     {
         if ($this->items->removeElement($items)) {
             $items->removeCollection($this);
+        }
+
+        return $this;
+    }
+
+    public function getCategory(): ?Category
+    {
+        return $this->category;
+    }
+
+    public function setCategory(?Category $category): static
+    {
+        $this->category = $category;
+
+        return $this;
+    }
+
+    /**
+     * @return Collection<int, Tag>
+     */
+    public function getTags(): Collection
+    {
+        return $this->tags;
+    }
+
+    public function addTag(Tag $tag): static
+    {
+        if (!$this->tags->contains($tag)) {
+            $this->tags->add($tag);
+            $tag->addCollection($this);
+        }
+
+        return $this;
+    }
+
+    public function removeTag(Tag $tag): static
+    {
+        if ($this->tags->removeElement($tag)) {
+            $tag->removeCollection($this);
         }
 
         return $this;

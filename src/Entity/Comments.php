@@ -20,9 +20,6 @@ class Comments
     #[ORM\Column(length: 255)]
     private string $text;
 
-    #[Assert\NotBlank]
-    private Likes $likes;
-
     public function getId(): ?int
     {
         return $this->id;
@@ -38,15 +35,5 @@ class Comments
         $this->text = $text;
 
         return $this;
-    }
-
-    public function getLikes(): Likes
-    {
-        return $this->likes;
-    }
-
-    public function setLikes(Likes $likes): void
-    {
-        $this->likes = $likes;
     }
 }

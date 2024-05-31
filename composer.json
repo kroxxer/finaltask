@@ -10,7 +10,7 @@
         "doctrine/dbal": "^3",
         "doctrine/doctrine-bundle": "^2.12",
         "doctrine/doctrine-migrations-bundle": "^3.3",
-        "doctrine/orm": "2.19.*",
+        "doctrine/orm": "^2.19.*",
         "easycorp/easyadmin-bundle": "^4.10",
         "fakerphp/faker": "^1.23",
         "knplabs/knp-menu-bundle": "^3.4",
