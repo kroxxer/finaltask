@@ -2,14 +2,13 @@
 
 namespace App\Entity;
 
-use App\Repository\CustomAtributesRepository;
+use App\Repository\CustomAttributesLabelRepository;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
-use Doctrine\DBAL\Types\Types;
 use Doctrine\ORM\Mapping as ORM;
 
-#[ORM\Entity(repositoryClass: CustomAtributesRepository::class)]
-class CustomAtributes
+#[ORM\Entity(repositoryClass: CustomAttributesLabelRepository::class)]
+class CustomAttributesLabel
 {
     #[ORM\Id]
     #[ORM\GeneratedValue]
@@ -36,18 +35,6 @@ class CustomAtributes
 
     #[ORM\Column(nullable: true)]
     private ?bool $custom_bool_value = null;
-
-    #[ORM\Column(nullable: true)]
-    private ?int $custom_int_value = null;
-
-    #[ORM\Column(length: 255, nullable: true)]
-    private ?string $custom_string_value = null;
-
-    #[ORM\Column(type: Types::TEXT, nullable: true)]
-    private ?string $custom_text_value = null;
-
-    #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
-    private ?\DateTimeInterface $custom_date_value = null;
 
     /**
      * @var Collection<int, Collections>
@@ -126,42 +113,6 @@ class CustomAtributes
         return $this;
     }
 
-    public function isCustomBoolValue(): ?bool
-    {
-        return $this->custom_bool_value;
-    }
-
-    public function setCustomBoolValue(?bool $custom_bool_value): static
-    {
-        $this->custom_bool_value = $custom_bool_value;
-
-        return $this;
-    }
-
-    public function getCustomIntValue(): ?int
-    {
-        return $this->custom_int_value;
-    }
-
-    public function setCustomIntValue(?int $custom_int_value): static
-    {
-        $this->custom_int_value = $custom_int_value;
-
-        return $this;
-    }
-
-    public function getCustomStringValue(): ?string
-    {
-        return $this->custom_string_value;
-    }
-
-    public function setCustomStringValue(?string $custom_string_value): static
-    {
-        $this->custom_string_value = $custom_string_value;
-
-        return $this;
-    }
-
     public function getCustomTextState(): ?bool
     {
         return $this->custom_text_state;
@@ -170,28 +121,6 @@ class CustomAtributes
     public function setCustomTextState(?bool $custom_text_state): void
     {
         $this->custom_text_state = $custom_text_state;
-    }
-
-    public function getCustomTextValue(): ?string
-    {
-        return $this->custom_text_value;
-    }
-
-    public function setCustomTextValue(?string $custom_text_value): void
-    {
-        $this->custom_text_value = $custom_text_value;
-    }
-
-    public function getCustomDateValue(): ?\DateTimeInterface
-    {
-        return $this->custom_date_value;
-    }
-
-    public function setCustomDateValue(?\DateTimeInterface $custom_date_value): static
-    {
-        $this->custom_date_value = $custom_date_value;
-
-        return $this;
     }
 
     /**
