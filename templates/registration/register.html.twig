@@ -3,7 +3,7 @@
 {% block title %}Register{% endblock %}
 
 {% block body %}
-    <main class="m-auto ">
+    <main class="m-auto form-signin">
         <h1 class="text-center">Registration</h1>
         <br>
         <div class="container form-signin">
@@ -22,6 +22,11 @@
                     {{ form_widget(registrationForm.name) }}
                     <label>Name</label>
                     {{ form_errors(registrationForm.name) }}
+                </div>
+                <div class="form-floating mb-3">
+                    {{ form_widget(registrationForm.age) }}
+                    <label>Age</label>
+                    {{ form_errors(registrationForm.age) }}
                 </div>
                 <button class="btn btn-primary w-100 py-2" type="submit">Sign in</button>
             {{ form_end(registrationForm) }}

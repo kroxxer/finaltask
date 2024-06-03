@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e53837e6-eb4f-4c49-9c9a-20107657c2d0" name="Changes" comment="a">
-      <change afterPath="$PROJECT_DIR$/src/Entity/CustomAttributesValue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Repository/CustomAttributesValueRepository.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/phpspec.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpspec.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Collections.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Collections.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/CustomAtributes.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/CustomAttributesLabel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Items.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Items.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Repository/CustomAtributesRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/CustomAttributesLabelRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Factory/UserFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Factory/UserFactory.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Form/RegistrationFormType.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/registration/register.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/registration/register.html.twig" afterDir="false" />
     </list>
     <list id="502b1f4f-cdf1-4789-b714-9c4208035c5d" name="New changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +66,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
-      <path value="$PROJECT_DIR$/vendor/symfony/ux-turbo" />
       <path value="$PROJECT_DIR$/vendor/symfony/console" />
       <path value="$PROJECT_DIR$/vendor/symfony/clock" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
@@ -177,7 +173,6 @@
       <path value="$PROJECT_DIR$/vendor/knplabs/knp-components" />
       <path value="$PROJECT_DIR$/vendor/doctrine/data-fixtures" />
       <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-fixtures-bundle" />
-      <path value="$PROJECT_DIR$/vendor/vertigolabs/doctrine-full-text-postgres" />
       <path value="$PROJECT_DIR$/vendor/doctrine/common" />
       <path value="$PROJECT_DIR$/vendor/fakerphp/faker" />
       <path value="$PROJECT_DIR$/vendor/zenstruck/foundry" />
@@ -208,7 +203,7 @@
     &quot;Docker.Dockerfile.executor&quot;: &quot;Run&quot;,
     &quot;Docker.compose.yaml: Compose Deployment.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/aboba/finaltask/src/Form&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/aboba/test4&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -232,7 +227,7 @@
       <recent name="$PROJECT_DIR$/templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.compose.yaml: Compose Deployment">
+  <component name="RunManager" selected="Docker.Dockerfile">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml.dist" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
@@ -302,79 +297,8 @@
       <workItem from="1716829396010" duration="78000" />
       <workItem from="1716829487058" duration="27178000" />
       <workItem from="1717079064098" duration="4196000" />
-      <workItem from="1717124833592" duration="2082000" />
-    </task>
-    <task id="LOCAL-00029" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715948824309</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1715948824309</updated>
-    </task>
-    <task id="LOCAL-00030" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715949233817</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1715949233817</updated>
-    </task>
-    <task id="LOCAL-00031" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715949700006</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1715949700006</updated>
-    </task>
-    <task id="LOCAL-00032" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715949996062</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1715949996062</updated>
-    </task>
-    <task id="LOCAL-00033" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715950545463</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1715950545463</updated>
-    </task>
-    <task id="LOCAL-00034" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715950786484</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1715950786484</updated>
-    </task>
-    <task id="LOCAL-00035" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715951632677</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1715951632677</updated>
-    </task>
-    <task id="LOCAL-00036" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715952005861</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1715952005861</updated>
-    </task>
-    <task id="LOCAL-00037" summary="doc">
-      <option name="closed" value="true" />
-      <created>1715953737143</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1715953737143</updated>
+      <workItem from="1717124833592" duration="15322000" />
+      <workItem from="1717422993028" duration="3505000" />
     </task>
     <task id="LOCAL-00038" summary="doc">
       <option name="closed" value="true" />
@@ -696,7 +620,79 @@
       <option name="project" value="LOCAL" />
       <updated>1717003643437</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="a">
+      <option name="closed" value="true" />
+      <created>1717126930531</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1717126930534</updated>
+    </task>
+    <task id="LOCAL-00079" summary="a">
+      <option name="closed" value="true" />
+      <created>1717127396459</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1717127396459</updated>
+    </task>
+    <task id="LOCAL-00080" summary="a">
+      <option name="closed" value="true" />
+      <created>1717129861833</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1717129861833</updated>
+    </task>
+    <task id="LOCAL-00081" summary="a">
+      <option name="closed" value="true" />
+      <created>1717130643173</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1717130643174</updated>
+    </task>
+    <task id="LOCAL-00082" summary="a">
+      <option name="closed" value="true" />
+      <created>1717143728735</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1717143728735</updated>
+    </task>
+    <task id="LOCAL-00083" summary="a">
+      <option name="closed" value="true" />
+      <created>1717146711066</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1717146711066</updated>
+    </task>
+    <task id="LOCAL-00084" summary="a">
+      <option name="closed" value="true" />
+      <created>1717147274876</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1717147274877</updated>
+    </task>
+    <task id="LOCAL-00085" summary="a">
+      <option name="closed" value="true" />
+      <created>1717147911021</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1717147911022</updated>
+    </task>
+    <task id="LOCAL-00086" summary="a">
+      <option name="closed" value="true" />
+      <created>1717148832490</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1717148832490</updated>
+    </task>
+    <option name="localTasksCounter" value="87" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

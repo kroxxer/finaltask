@@ -67,6 +67,20 @@ class RegistrationFormType extends AbstractType
                 ],
                 'label' => false,
             ])
+            ->add('age', TextType::class, [
+                'trim' => true,
+                'constraints' => [
+                    new NotBlank([
+                        'message' => 'Please enter a password',
+                    ]),
+                    new Length([
+                        'min' => 1,
+                        'minMessage' => 'Your password should be at least {{ limit }} characters',
+                        'max' => 20,
+                    ]),
+                ],
+                'label' => false,
+            ])
         ;
     }
 

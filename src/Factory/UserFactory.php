@@ -55,7 +55,8 @@ final class UserFactory extends ModelFactory
             'roles' => ['ROLE_ADMIN'],
             'name' => self::faker()->unique()->name(),
             'blocked' => false,
-            'updated' => self::faker()->dateTime()
+            'updated' => self::faker()->dateTime(),
+            'age' => self::faker()->numberBetween(int1:12)
         ];
     }
 
