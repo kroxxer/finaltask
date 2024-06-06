@@ -31,14 +31,14 @@ class CollectionsVoter extends Voter
         // ... (check conditions and return true to grant permission) ...
         switch ($attribute) {
             case self::EDIT:
-                // logic to determine if the user can EDIT
-                // return true or false
-                break;
+                return strcmp($token->getUser()->getName(), $subject->getOwner()) === 0;
+
 
             case self::VIEW:
                 // logic to determine if the user can VIEW
                 // return true or false
-                break;
+                return true;
+
         }
 
         return false;

@@ -31,6 +31,9 @@ class Collections
     #[ORM\JoinColumn(nullable: false)]
     private Category $category;
 
+    #[ORM\Column]
+    private string $owner;
+
     /**
      * @var Collection<int, Tag>
      */
@@ -123,5 +126,15 @@ class Collections
         }
 
         return $this;
+    }
+
+    public function getOwner(): string
+    {
+        return $this->owner;
+    }
+
+    public function setOwner(string $owner): void
+    {
+        $this->owner = $owner;
     }
 }
