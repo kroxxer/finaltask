@@ -22,10 +22,10 @@ class RegistrationController extends AbstractController
 
         if ($form->isSubmitted() && $form->isValid()) {
             $user->setPassword(
-                 $userPasswordHasher->hashPassword(
-                     $user,
-                     strval($form->get('plainPassword')->getData())
-                    )
+                $userPasswordHasher->hashPassword(
+                    $user,
+                    strval($form->get('plainPassword')->getData())
+                )
             );
 
             $this->checkForm($user);

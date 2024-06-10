@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\UserRepository;
+use DateTime;
 use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
@@ -52,16 +53,16 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     }
 
     /**
-     * @var string The hashed password
+     * @var string|null The hashed password
      */
     #[ORM\Column]
-    private ?string $password = null;
+    private string|null $password;
 
-    #[ORM\Column (options: ["default" => false, "nullable" => true])]
+    #[ORM\Column(options: ["default" => false, "nullable" => true])]
     private ?bool $blocked = null;
 
     #[ORM\Column(type: 'datetime', options:["default" => "CURRENT_TIMESTAMP", "nullable" => true])]
-    private ?\DateTime $updated = null;
+    private ?DateTime $updated = null;
 
     public function getId(): ?int
     {
@@ -139,12 +140,12 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
         $this->blocked = $blocked;
     }
 
-    public function getUpdated(): ?\DateTime
+    public function getUpdated(): ?DateTime
     {
         return $this->updated;
     }
 
-    public function setUpdated(?\DateTime $updated): void
+    public function setUpdated(?DateTime $updated): void
     {
         $this->updated = $updated;
     }

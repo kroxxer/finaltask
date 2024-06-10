@@ -10,6 +10,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
+use Symfony\Component\Security\Http\Attribute\IsGranted;
 
 #[Route('/collections')]
 class CollectionsController extends AbstractController
@@ -52,6 +53,7 @@ class CollectionsController extends AbstractController
     }
 
     #[Route('/{id}/edit', name: 'app_collections_edit', methods: ['GET', 'POST'])]
+    #[IsGranted('edit', 'collections')]
     public function edit(Request $request, Collections $collection, EntityManagerInterface $entityManager): Response
     {
         $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');
@@ -72,6 +74,7 @@ class CollectionsController extends AbstractController
     }
 
     #[Route('/{id}', name: 'app_collections_delete', methods: ['POST'])]
+    #[IsGranted('edit', 'collections')]
     public function delete(Request $request, Collections $collection, EntityManagerInterface $entityManager): Response
     {
         $this->denyAccessUnlessGranted('IS_AUTHENTICATED_FULLY');

@@ -39,7 +39,7 @@ class CustomAttributesLabel
     /**
      * @var Collection<int, Collections>
      */
-    #[ORM\ManyToMany(targetEntity: Collections::class, inversedBy: 'customAtributes', fetch: 'EAGER')]
+    #[ORM\ManyToMany(targetEntity: Collections::class, inversedBy: 'customAttributesLabel', fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
     private Collection $collection;
 
@@ -122,6 +122,17 @@ class CustomAttributesLabel
     {
         $this->custom_text_state = $custom_text_state;
     }
+
+    public function getCustomBoolValue(): ?bool
+    {
+        return $this->custom_bool_value;
+    }
+
+    public function setCustomBoolValue(?bool $custom_bool_value): void
+    {
+        $this->custom_bool_value = $custom_bool_value;
+    }
+
 
     /**
      * @return Collection<int, Collections>

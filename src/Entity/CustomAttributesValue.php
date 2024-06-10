@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use App\Repository\CustomAttributesValueRepository;
+use DateTimeInterface;
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
 use Doctrine\DBAL\Types\Types;
@@ -29,7 +30,7 @@ class CustomAttributesValue
     private ?string $custom_text_value = null;
 
     #[ORM\Column(type: Types::DATE_MUTABLE, nullable: true)]
-    private ?\DateTimeInterface $custom_date_value = null;
+    private DateTimeInterface|null $custom_date_value = null;
 
     #[ORM\ManyToMany(targetEntity: Items::class, mappedBy: 'collection', fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
@@ -95,12 +96,12 @@ class CustomAttributesValue
         $this->custom_text_value = $custom_text_value;
     }
 
-    public function getCustomDateValue(): ?\DateTimeInterface
+    public function getCustomDateValue(): ?DateTimeInterface
     {
         return $this->custom_date_value;
     }
 
-    public function setCustomDateValue(?\DateTimeInterface $custom_date_value): void
+    public function setCustomDateValue(?DateTimeInterface $custom_date_value): void
     {
         $this->custom_date_value = $custom_date_value;
     }
