@@ -1,13 +1,29 @@
 {% extends 'base.html.twig' %}
 
 {% block title %}Main Page{% endblock %}
-
+{% block head %}
+    {{ knp_pagination_rel_links(pagination) }}
+{% endblock %}
 {% block body %}
-    <br>
-    <div class="text-end">
-        <a class="btn btn-primary" href="{{ path('app_login') }}">Login</a>
+    <div class="container">
+        <table class="table container table-striped table-bordered">
+        {# table body #}
+        {% for user in pagination %}
+            <tr {% if loop.index is odd %}class="color"{% endif %}>
+                <td>{{ user.email }}</td>
+                <td>{{ user.name }}</td>
+                <td>{% if user.blocked == false %}
+                        <p class="badge rounded-pill text-bg-success">active</p>
+                    {% else %}
+                        <p class="badge rounded-pill text-bg-danger">blocked</p>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </table>
+        {# display navigation #}
+        <div class="justify-content-center d-flex">
+            {{ knp_pagination_render(pagination) }}
+        </div>
     </div>
-    {% for email in emails %}
-        <div>Email : {{ email.email }}</div>
-    {% endfor %}
 {% endblock %}

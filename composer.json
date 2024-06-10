@@ -14,7 +14,7 @@
         "easycorp/easyadmin-bundle": "^4.10",
         "fakerphp/faker": "^1.23",
         "knplabs/knp-menu-bundle": "^3.4",
-        "knplabs/knp-paginator-bundle": "^6.3",
+        "knplabs/knp-paginator-bundle": "^6.4",
         "lesstif/jira-cloud-restapi": "^1.0",
         "martin-georgiev/postgresql-for-doctrine": "^2.5",
         "phpdocumentor/reflection-docblock": "^5.4",

@@ -13,12 +13,15 @@
         {% block javascripts %}
             {% block importmap %}{{ importmap('app') }}{% endblock %}
         {% endblock %}
+        {% block head %}
+        {% endblock %}
 
     </head>
     <body class="d-flex py-4 text-center bg-body-tertiary" id="body">
         <main class="w-100 m-auto p-auto">
             <div class="text-end">
                 <button id="btnSwitch" type="button" class="btn btn-primary">Change Theme</button>
+                <a class="btn btn-info" href="{{ path('app_support') }}">Support</a>
             </div>
                 {% block body %}{% endblock %}
         </main>

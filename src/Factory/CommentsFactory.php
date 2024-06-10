@@ -51,7 +51,7 @@ final class CommentsFactory extends PersistentProxyObjectFactory
     protected function defaults(): array|callable
     {
         return [
-            'text' => self::faker()->text(255),
+            'text' => self::faker()->sentences(),
         ];
     }
 

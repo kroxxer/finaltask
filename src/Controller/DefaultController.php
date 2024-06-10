@@ -3,21 +3,29 @@
 namespace App\Controller;
 
 use Doctrine\ORM\EntityManagerInterface;
+use Knp\Component\Pager\PaginatorInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Component\BrowserKit\Request;
+use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
-
 
 class DefaultController extends AbstractController
 {
     #[Route('/', name: 'app_index')]
-    public function index(EntityManagerInterface $entityManager): Response
+    public function index(Request $request, EntityManagerInterface $entityManager, PaginatorInterface $paginator): Response
     {
-        dump($entityManager->createQuery("SELECT u FROM App\Entity\User u WHERE TSMATCH(TO_TSVECTOR(u.email), TO_TSQUERY('a@a.a'))=TRUE")->getSQL());
-        $emails = $entityManager->createQuery("SELECT u FROM App\Entity\User u WHERE TSMATCH(TO_TSVECTOR(u.email), TO_TSQUERY('a@a.a'))=TRUE")->getResult();
-        return $this->render("default/index.html.twig", [
-            'emails' => $emails
+        $emails = $entityManager->createQuery("SELECT u FROM App\Entity\User u");
+
+        $pagination = $paginator->paginate(
+            $emails, /* query NOT result */
+            $request->query->getInt('page', 1), /*page number*/
+            10 /*limit per page*/
+        );
+
+
+        return $this->render("default/index.html.twig",
+            [
+                'pagination' => $pagination
             ]
         );
     }
