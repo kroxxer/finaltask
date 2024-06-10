@@ -32,7 +32,8 @@ class CollectionsVoter extends Voter
         // ... (check conditions and return true to grant permission) ...
         switch ($attribute) {
             case self::EDIT:
-                return strcmp($token->getUser()->getName(), $subject->getOwner()) === 0;
+                return strcmp($token->getUser()->getName(), $subject->getOwner()) === 0 ||
+                        in_array('ROLE_ADMIN', $token->getUser()->getRoles(), true);
 
 
             case self::VIEW:

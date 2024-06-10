@@ -37,21 +37,6 @@ class User implements UserInterface, PasswordAuthenticatedUserInterface
     #[ORM\Column]
     private array $roles = [];
 
-    #[ORM\Column(options: ["default" => 12])]
-    #[Assert\NotBlank]
-    #[Assert\GreaterThanOrEqual(12)]
-    private int $age;
-
-    public function getAge(): int
-    {
-        return $this->age;
-    }
-
-    public function setAge(int $age): void
-    {
-        $this->age = $age;
-    }
-
     /**
      * @var string|null The hashed password
      */
