@@ -2,11 +2,14 @@
 
 namespace App\Form;
 
+use App\Entity\Category;
 use App\Entity\Collections;
 use App\Entity\CustomAttributesLabel;
 use App\Entity\Items;
+use App\Entity\User;
 use Symfony\Bridge\Doctrine\Form\Type\EntityType;
 use Symfony\Component\Form\AbstractType;
+use Symfony\Component\Form\Extension\Core\Type\ChoiceType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
@@ -24,6 +27,12 @@ class CollectionsType extends AbstractType
                 'class' => CustomAttributesLabel::class,
                 'choice_label' => 'id',
                 'multiple' => true,
+            ])
+            ->add('category', EntityType::class, [
+                'class' => Category::class,
+                'choice_label' => 'name',
+                'multiple' => false,
+                'placeholder' => 'Choose a category'
             ])
         ;
     }

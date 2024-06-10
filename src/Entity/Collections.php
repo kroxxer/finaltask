@@ -16,7 +16,7 @@ class Collections
     #[ORM\Column]
     private ?int $id = null;
 
-    #[ORM\ManyToMany(targetEntity: Items::class, mappedBy: 'collection', fetch: 'EAGER')]
+    #[ORM\ManyToOne(targetEntity: Items::class, fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
     private Collection $items;
 

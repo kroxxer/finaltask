@@ -3,7 +3,9 @@
 namespace App\Factory;
 
 use App\Entity\Collections;
+use App\Repository\CategoryRepository;
 use App\Repository\CollectionsRepository;
+use App\Repository\UserRepository;
 use Zenstruck\Foundry\ModelFactory;
 use Zenstruck\Foundry\Proxy;
 use Zenstruck\Foundry\RepositoryProxy;
@@ -34,7 +36,8 @@ final class CollectionsFactory extends ModelFactory
      *
      *
      */
-    public function __construct()
+    public function __construct(private readonly UserRepository $userRepository,
+                                private readonly CategoryRepository $categoryRepository)
     {
         parent::__construct();
     }
@@ -47,8 +50,8 @@ final class CollectionsFactory extends ModelFactory
     protected function getDefaults(): array
     {
         return [
-            'category' => CategoryFactory::new(),
-            'owner' => self::faker()->text(),
+            'category' => self::faker()->randomElement($this->categoryRepository->findAll()),
+            'owner' => self::faker()->randomElement($this->userRepository->findAll())->getName(),
         ];
     }
 

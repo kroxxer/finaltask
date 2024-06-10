@@ -32,6 +32,7 @@ class CollectionsController extends AbstractController
         $form->handleRequest($request);
 
         if ($form->isSubmitted() && $form->isValid()) {
+            $collection->setOwner($this->getUser()->getName());
             $entityManager->persist($collection);
             $entityManager->flush();
 

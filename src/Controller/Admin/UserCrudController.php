@@ -24,7 +24,7 @@ class UserCrudController extends AbstractCrudController
             EmailField::new('email'),
             TextField::new('password'),
             TextField::new('name'),
-            BooleanField::new('blocked')
+            BooleanField::new('blocked')->renderAsSwitch(false)
         ];
     }
 }
