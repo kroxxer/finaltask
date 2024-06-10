@@ -36,9 +36,10 @@ final class CollectionsFactory extends ModelFactory
      *
      *
      */
-    public function __construct(private readonly UserRepository $userRepository,
-                                private readonly CategoryRepository $categoryRepository)
-    {
+    public function __construct(
+        private readonly UserRepository $userRepository,
+        private readonly CategoryRepository $categoryRepository
+    ) {
         parent::__construct();
     }
 
