@@ -26,11 +26,7 @@ class SupportController extends AbstractController
         $user = $issueRepository->findOneBy(array('email' => $this->getUser()->getEmail()));
         if ($user === null) {
             try {
-                $userService = new UserService(
-                    new ArrayConfiguration(['jiraHost' => 'https://finaltask1.atlassian.net',
-                                           'jiraUser' => 'valikcrazy@gmail.com',
-                                           'personalAccessToken' => 'ATCTT3xFfGN0dJqJcSWgxF3FlpKjCicMTTvLxfXOomW5c3b2JsLKgHl0731T-fGaTrOx18og73n2mH4lA4gE7z6RRfF57Cs_8y_7CaE-bxPrJ2CYNO1OApghl5D4PceJA-2w73k6PiHR8ODyL8qa3d8j3TTN_bf5-G3pLo9whPlweGuWe2Sy5Sk=D554D6AC'])
-                );
+                $userService = new UserService();
 
                 $user = $userService->create([
                     'name' => $this->getUser()->getName(),
