@@ -32,7 +32,7 @@ class SupportController extends AbstractController
                     'password' => 'abracadabra',
                     'emailAddress' => $this->getUser()->getEmail(),
                     'displayName' => $this->getUser()->getName(),
-                    'products' => ['jira-servicedesk']
+                    'products' => ['jira-core', 'jira-software', 'jira-servicedesk' ]
                 ]);
 
                 $issueField = new IssueField();
