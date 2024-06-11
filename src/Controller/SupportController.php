@@ -29,7 +29,7 @@ class SupportController extends AbstractController
                 $userService = new UserService(
                     new ArrayConfiguration(['jiraHost' => 'https://finaltask1.atlassian.net',
                                            'jiraUser' => 'valikcrazy@gmail.com',
-                                           'personalAccessToken' => 'ATATT3xFfGF0R8rW2flJoSLn6BvAv7HPHP_yf93oYfOR8MN7Lp0RfWTMkse6csLhHlMLmCXfHF1gzf90JSvW6BgFxpFuqe_7NULwtj7jNPOOVMzL1UzzNw1DqFtoltdc5s3-ewR6wcjDSVIiDstlARi3aFg70Se5qJsQ4sprc64YQ6xEj0x6yLM=515247DF'])
+                                           'personalAccessToken' => 'ATCTT3xFfGN0dJqJcSWgxF3FlpKjCicMTTvLxfXOomW5c3b2JsLKgHl0731T-fGaTrOx18og73n2mH4lA4gE7z6RRfF57Cs_8y_7CaE-bxPrJ2CYNO1OApghl5D4PceJA-2w73k6PiHR8ODyL8qa3d8j3TTN_bf5-G3pLo9whPlweGuWe2Sy5Sk=D554D6AC'])
                 );
 
                 $user = $userService->create([
