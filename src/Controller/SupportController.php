@@ -6,6 +6,7 @@ use App\Repository\IssueRepository;
 use DH\Adf\Node\Block\Document;
 use Doctrine\ORM\EntityManagerInterface;
 use JiraCloud\ADF\AtlassianDocumentFormat;
+use JiraCloud\Configuration\ArrayConfiguration;
 use JiraCloud\Issue\IssueField;
 use JiraCloud\Issue\IssueService;
 use JiraCloud\JiraException;
@@ -25,7 +26,11 @@ class SupportController extends AbstractController
         $user = $issueRepository->findOneBy(array('email' => $this->getUser()->getEmail()));
         if ($user === null) {
             try {
-                $userService = new UserService();
+                $userService = new UserService(
+                    new ArrayConfiguration(['jiraHost' => 'https://finaltask1.atlassian.net',
+                                           'jiraUser' => 'valikcrazy@gmail.com',
+                                           'personalAccessToken' => 'ATATT3xFfGF0R8rW2flJoSLn6BvAv7HPHP_yf93oYfOR8MN7Lp0RfWTMkse6csLhHlMLmCXfHF1gzf90JSvW6BgFxpFuqe_7NULwtj7jNPOOVMzL1UzzNw1DqFtoltdc5s3-ewR6wcjDSVIiDstlARi3aFg70Se5qJsQ4sprc64YQ6xEj0x6yLM=515247DF'])
+                );
 
                 $user = $userService->create([
                     'name' => $this->getUser()->getName(),
