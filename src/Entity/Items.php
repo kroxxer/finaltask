@@ -19,7 +19,7 @@ class Items
     #[ORM\JoinColumn(nullable: false)]
     private Collection $customAttributeValue;
 
-    #[ORM\OneToMany(targetEntity: Collections::class, fetch: 'EAGER')]
+    #[ORM\OneToMany(mappedBy: 'items', targetEntity: Collections::class, fetch: 'EAGER')]
     #[ORM\JoinColumn(nullable: false)]
     private Collections $collections;
 

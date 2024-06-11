@@ -19,6 +19,9 @@ class Issue
     #[ORM\Column(length: 255)]
     private ?string $link = null;
 
+    #[ORM\Column(length: 255)]
+    private ?string $accountId = null;
+
     public function getId(): ?int
     {
         return $this->id;
@@ -46,5 +49,15 @@ class Issue
         $this->link = $link;
 
         return $this;
+    }
+
+    public function getAccountId(): ?string
+    {
+        return $this->accountId;
+    }
+
+    public function setAccountId(?string $accountId): void
+    {
+        $this->accountId = $accountId;
     }
 }
